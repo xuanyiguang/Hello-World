@@ -10,7 +10,7 @@ public class HelloWorld extends Activity {
    public void onCreate(Bundle savedInstanceState) {
        super.onCreate(savedInstanceState);
        TextView tv = new TextView(this);
-       tv.setText("Hello, Ethan!");
+       tv.setText("Hello, Ethan and Juan!");
        setContentView(tv);
    }
 }
